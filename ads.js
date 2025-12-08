@@ -33,7 +33,7 @@ function addTask() {
  label.textContent = taskText;
 
  const deleteIcon = document.createElement("span");
-  deleteIcon.innerHTML = "<img src='delete bin.jpg' width='22' class='delImg'>";
+  deleteIcon.innerHTML = "<img src='bin.jpg' width='22' class='delImg'>";
 
  deleteIcon.addEventListener("click", () => {
  if (checkbox.checked) {
